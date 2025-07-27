@@ -23,3 +23,19 @@
 - Dashboard: https://dash.cloudflare.com/b686410026ae13ac7abe3d38a70af4aa/kcmozou.com
 ## Domain Hosting: Namecheap
 - Dashboard: https://ap.www.namecheap.com/dashboard
+## VPN - PiVPN
+- OpenVPN is selected as the VPN provider on this RaspberryPi.
+### Commands
+
+` pivpn [command] `
+| Command             | Description                                    |
+| ------------------  | ---------------------------------------------- |
+| -a, add [nopass]    | Create a client ovpn profile, optional nopass" |
+| -c, clients         | List any connected clients to the server" |
+| -d, debug           | Start a debugging session if having trouble" |
+| -l, list            | List all valid and revoked certificates" |
+| -r, revoke          | Revoke a client ovpn profile" |
+| -h, help            | Show this help dialog" |
+| -u, uninstall       | Uninstall PiVPN from your system!" |
+| -up, update         | Updates PiVPN Scripts" |
+| -bk, backup         | Backup Openvpn and ovpns dir" |
